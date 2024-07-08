@@ -157,4 +157,4 @@ CRC32 ：F7CACC0B
 Adobe Flash Player：http://www.zhuangji.net/FlashPlayer.html 
 备注：对于停止更新的系统，不再默认安装Adobe Flash Player，需要请自行安装。
 
-#### 转发自‘<a href="http://www.songyongzhi.com/Windows-7.html">宋永志的博客</a>
+#### 转发自<a href="http://www.songyongzhi.com/Windows-7.html">宋永志的博客</a>
