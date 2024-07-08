@@ -1,5 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>兩呎七吋半 博客</title><link>https://blog.zbccyw.cloudns.ch/</link><description>人!活到老学到老！生命不息，折腾不止！</description><copyright>兩呎七吋半 博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://www.whzbyw.top:6868/icon/me_2.png</url><title>avatar</title><link>https://blog.zbccyw.cloudns.ch/</link></image><lastBuildDate>Mon, 08 Jul 2024 15:25:15 +0000</lastBuildDate><managingEditor>兩呎七吋半 博客</managingEditor><ttl>60</ttl><webMaster>兩呎七吋半 博客</webMaster><item><title>Docker Hub 国内镜像设置方法，解决Docker镜像拉取失败!</title><link>https://blog.zbccyw.cloudns.ch//post/Docker%20Hub%20-guo-nei-jing-xiang-she-zhi-fang-fa-%EF%BC%8C-jie-jue-Docker-jing-xiang-la-qu-shi-bai-%21.html</link><description>### 配置Docker镜像源&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>兩呎七吋半 博客</title><link>https://blog.zbccyw.cloudns.ch/</link><description>人!活到老学到老！生命不息，折腾不止！</description><copyright>兩呎七吋半 博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://www.whzbyw.top:6868/icon/me_2.png</url><title>avatar</title><link>https://blog.zbccyw.cloudns.ch/</link></image><lastBuildDate>Mon, 08 Jul 2024 15:31:49 +0000</lastBuildDate><managingEditor>兩呎七吋半 博客</managingEditor><ttl>60</ttl><webMaster>兩呎七吋半 博客</webMaster><item><title>Ubuntu把未分配的空间给系统盘</title><link>https://blog.zbccyw.cloudns.ch//post/Ubuntu-ba-wei-fen-pei-de-kong-jian-gei-xi-tong-pan.html</link><description>### 查看卷组的状态和配置信息，以及可用的空间和已分配的空间&#13;
+&#13;
+```auto&#13;
+sudo vgdisplay ubuntu-vg&#13;
+```&#13;
+&#13;
+![1](https://github.com/zbccyw/zbccyw.github.io/assets/175001413/b3907084-2bb8-42b7-8414-3f137fef792f)&#13;
+&#13;
+### 显示文件系统的磁盘空间使用情况&#13;
+&#13;
+```auto&#13;
+sudo df -lh&#13;
+```&#13;
+&#13;
+![2](https://github.com/zbccyw/zbccyw.github.io/assets/175001413/c227d1cc-9466-4a94-aeba-38c668109829)&#13;
+&#13;
+**从你提供的文件系统信息来看，/dev/mapper/ubuntu--vg-ubuntu--lv（即你的逻辑卷）的大小现在是98G，已使用13G，可用空间为81G。</description><guid isPermaLink="true">https://blog.zbccyw.cloudns.ch//post/Ubuntu-ba-wei-fen-pei-de-kong-jian-gei-xi-tong-pan.html</guid><pubDate>Mon, 08 Jul 2024 15:31:24 +0000</pubDate></item><item><title>Docker Hub 国内镜像设置方法，解决Docker镜像拉取失败!</title><link>https://blog.zbccyw.cloudns.ch//post/Docker%20Hub%20-guo-nei-jing-xiang-she-zhi-fang-fa-%EF%BC%8C-jie-jue-Docker-jing-xiang-la-qu-shi-bai-%21.html</link><description>### 配置Docker镜像源&#13;
 &#13;
 - **如果不存在/etc/docker/daemon.json这个配置文件，可以直接使用下面的命令：**&#13;
 **创建目录**&#13;
