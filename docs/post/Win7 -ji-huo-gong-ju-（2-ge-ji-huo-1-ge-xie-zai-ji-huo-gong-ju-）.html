@@ -92,8 +92,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <h2>二、Win7 GPT激活工具</h2>
 <p>号称网络第一安全的Win7激活工具NT6 OEM Loader是一款免费的Win7激活软件，值得一提的是NT6 OEM Loader 可以支持UEFI+GPT磁盘激活。这样使用UEFI安装Win7就不用担心没有激活工具可以用了。NT6 OEM Loader在运行的时候即可自动判断当然硬件系统的SLIC版本亲测表明笔者的BIOS已然支持SLIC 2.1和正版授权证书的导入，不过笔者没有使用OEM系统进行安装使用且在此应用的软激活方式，说到这里我们不得不确定软激活这种方式已经非常成熟且在互联网中广泛传播开来，通过软件的体积我们可以判断其包含了丰富的OEM系统激活证书且根据程序自动判断并导入激活，说道这里它和我们甚是熟悉的Windows Loader的OEM证书和密钥安装方式有着异曲同工之妙，若论自动化程度还是NT6 OEM Loader略胜一筹。<br>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/zbccyw/zbccyw.github.io/assets/175001413/e4774e95-49c7-47e2-b4f5-b0848b73e958"><img src="https://github.com/zbccyw/zbccyw.github.io/assets/175001413/e4774e95-49c7-47e2-b4f5-b0848b73e958" alt="2" style="max-width: 100%;"></a><br>
-软激活共包括首选激活、备用激活1-4、EFI-GPT软激活六种软激活模式，使激活成功率最高。<br>
-EFI+GPT软激活作为一种软新的激活方式，比起已经发展多年的普通（BIOS+MBR方式）软激活，在激活成功率上是绝对逊色的，普通（BIOS+MBR方式）软激活目前可以达到百分之九十几的激活成功率，而EFI-GPT软激活个人认为如果能达到百分之六七十的成功率的话就已经很不错了，所以在条件允许的情况下并不推荐使用EFI-GPT方式进行安装系统。</p>
+软激活共包括首选激活、备用激活1-4、EFI-GPT软激活六种软激活模式，使激活成功率最高。</p>
+<p>EFI+GPT软激活作为一种软新的激活方式，比起已经发展多年的普通（BIOS+MBR方式）软激活，在激活成功率上是绝对逊色的，普通（BIOS+MBR方式）软激活目前可以达到百分之九十几的激活成功率，而EFI-GPT软激活个人认为如果能达到百分之六七十的成功率的话就已经很不错了，所以在条件允许的情况下并不推荐使用EFI-GPT方式进行安装系统。</p>
 <p>硬激活自动判断默认适用于windows7（win7自带Microsoft .NET Framework v3.5），Vista/2008/2008r2则需在已经安装Microsoft .NET Framework v3.5组件的情况下才能自动判断硬激活状态。</p>
 <p><strong>Nt6 Oem Loader优缺点</strong><br>
 <strong>优点</strong></p>
@@ -109,14 +109,22 @@ EFI+GPT软激活作为一种软新的激活方式，比起已经发展多年的�
 <p><strong>nt6 oem loader v3.3.1 软激活开机热键说明：</strong><br>
 F5：除EFI/GPT软激活外，安装了其它所有的软激活模式（首选 — 备用4）有效<br>
 作用：临时跳过软激活，类似卸载激活后的结果，直接从BOOTMGR/NTLDR引导，一般在机器无法兼容软激活而无法进入系统时使用，按键后如屏幕出现瞬间满天星则说明F5已经生效，软激活已经临时失效。<br>
-说明：所有的软激活都有可能会进不了系统，虽发生的几率很小，但F5的安全引导功能一样很重要<br>
-F4：安装了首选软激活或备用激活1后有效<br>
-作用：把nt6 hdd installer这个软件的模式1内置于F4热键，只要照nt6 hdd installer方法把系统安装程序中的BOOTMGR文件和BOOT/SOURCES文件夹存放于某分区根目录，开机时连按F4就可以进入系统安装界面而无需另外安装nt6 hdd installer<br>
-F3：安装了首选软激活或备用激活1后有效<br>
-作用：外置menu.lst支持，grub4dos用户不言自明。一般用于隐性功能扩展。<br>
-F3/F4说明：把软激活载体grub4dos纯粹作为软激活有些浪费，所以内置F3和F4作为软激活核心的功能扩展。</p>
+说明：所有的软激活都有可能会进不了系统，虽发生的几率很小，但F5的安全引导功能一样很重要</p>
+<p>F4：安装了首选软激活或备用激活1后有效<br>
+作用：把nt6 hdd installer这个软件的模式1内置于F4热键，只要照nt6 hdd installer方法把系统安装程序中的BOOTMGR文件和BOOT/SOURCES文件夹存放于某分区根目录，开机时连按F4就可以进入系统安装界面而无需另外安装nt6 hdd installer</p>
+<p>F3：安装了首选软激活或备用激活1后有效<br>
+作用：外置menu.lst支持，grub4dos用户不言自明。一般用于隐性功能扩展。</p>
+<p>F3/F4说明：把软激活载体grub4dos纯粹作为软激活有些浪费，所以内置F3和F4作为软激活核心的功能扩展。</p>
 <p><strong>下载地址：</strong><br>
-蓝奏云盘：<a href="https://www.lanzoui.com/i7ms3rc" rel="nofollow">https://www.lanzoui.com/i7ms3rc</a></p></div>
+蓝奏云盘：<a href="https://www.lanzoui.com/i7ms3rc" rel="nofollow">https://www.lanzoui.com/i7ms3rc</a></p>
+<h2>Win7移除激活工具</h2>
+<p>用户通过RemoveWAT软件可以绕开Windows 7和Windows Server 2008 R2的激活机制。使用方法：运行程序后，点击带有“Remove WAT”字样的按钮。点击后会弹出对话框，提示你即将开始并提示你移除完成后需要重启电脑。点击确定按钮即可。<br>
+Windows Activation Technologies(WAT)。通过新的破解工具，所有与Windows系统文件相关的激活和授权，以及slui.exe(激活Windows 7的exe文件)都将无法启动，用户因此将永远规避Windows系统的激活机制。</p>
+<p>禁用WAT机制将避开Windows 7 30天试用期限制。据悉，当30天试用期截止，Windows 7会提示用户激活系统，Windows7墙纸同时将变为黑色，桌面上出现“This copy of Windows is not genuine”(这不是正版Windows拷贝)水印。</p>
+<p>RemoveWAT支持所有版本的Windows 7(32位和64位)和Windows Server 2008 R2。除了删除和禁用WAT激活机制，通过RemoveWAT还可以停止相关服务清理系统，并修复某些DLL文件。<br>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/zbccyw/zbccyw.github.io/assets/175001413/9b971c9b-f702-461f-93bd-1a541ab614a5"><img src="https://github.com/zbccyw/zbccyw.github.io/assets/175001413/9b971c9b-f702-461f-93bd-1a541ab614a5" alt="3" style="max-width: 100%;"></a><br>
+<strong>下载地址：</strong><br>
+蓝奏云盘：<a href="https://www.lanzoui.com/iwbYS080pjmf" rel="nofollow">https://www.lanzoui.com/iwbYS080pjmf</a></p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
