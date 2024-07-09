@@ -54,6 +54,5 @@ SHA1：B3D7A5944CFF70F67D987371630D3A62DE29C32F
 
 ### 下载地址：
 蓝奏云盘：https://www.lanzoui.com/iY9np1xy0j2f
-本地下载：https://blog.zbccyw.cloudns.ch/HEU_KMS_Activator_v42.0.3.zip
 
 ### 转发自[宋永志的博客](http://www.songyongzhi.com/)
