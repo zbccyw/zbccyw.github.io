@@ -27,6 +27,5 @@ v2.6 (2024-04-20)
 
 下载地址：
 蓝奏云盘：https://www.lanzoui.com/ibwzn1vz9rpe
-本地下载：https://blog.zbccyw.cloudns.ch/MAS_AIO_v2.6_Chs.zip
 
 转发自[宋永志的博客](http://www.zhuangji.net/Microsoft-Activation-Scripts.html)
