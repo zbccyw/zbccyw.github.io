@@ -4,6 +4,9 @@
     "avatarUrl":"https://www.whzbyw.top:6868/icon/me_2.png",
     "GMEEK_VERSION":"last",
     "homeUrl":"https://blog.zbccyw.cloudns.ch/",
-    "startSite":"07/08/2024"
-    
+    "startSite":"07/08/2024",
+    "singlePage":["about"],
+    "i18n":"CN",
+    "UTC":8,
+    "needComment":1
 }
