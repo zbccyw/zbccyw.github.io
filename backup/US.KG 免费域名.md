@@ -15,3 +15,7 @@ us.kg注册登录地址：https://register.us.kg/auth/login?next=%2F
 4. 注册好的us.kg域名可以托管到【[CloudFlare官网](https://www.cloudflare.com/)】。
 
 ![1](https://github.com/user-attachments/assets/494657a5-2e50-4870-800c-547f6842838b)
+
+`setup a website`
+
+`work ID`
